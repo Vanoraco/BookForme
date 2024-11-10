@@ -4,7 +4,7 @@ import { DatePicker } from "./DatePicker";
 import { FloatingLabelInput } from "./FloatingLabelInput1";
 import { Heading } from "./Heading";
 import { Img } from "./Img";
-import { Input } from "./Input";
+import { Input } from "./input";
 import { RatingBar } from "./RatingBar";
 import { SelectBox } from "./SelectBox";
 import { Slider } from "./Slider";
