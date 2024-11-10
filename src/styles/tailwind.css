@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {  
+    :root {   
+         /*------Color variables------*/    
+         --amber_600: #ffb700;   
+          --amber_600_01: #ffb200;  
+            --black_900: #0c0c0c;    
+            --black_900_00: #00000000;  
+              --black_900_01: #000000;  
+                --black_900_02: #00000002;  
+                  --black_900_0a: #0000000a;   
+                   --black_900_14: #00000014;   
+                    --black_900_22: #00000022;  
+                      --black_900_34: #00000034; 
+                         --black_900_46: #00000046; 
+                            --black_900_59: #00000059;   
+                             --black_900_6c: #0000006c;  
+                               --black_900_7d: #0000007d; 
+                                  --black_900_8e: #0000008e;  
+                                    --black_900_9d: #0000009d;  
+                                      --black_900_a9: #000000a9; 
+                   --black_900_af: #000000af;    
+    --black_900_b2: #000000b2;    
+    --gray_100_01: #eff3f8;    
+    --gray_200: #e7e7e7;  
+      --gray_700: #595959;  
+        --gray_900_00: #16161600; 
+           --gray_900_01: #161616;    
+           --gray_900_02: #1a1a1a;
+           --gray_900_03: #20161d;   
+            --gray_900_04: #1e1e1e;  
+              --gray_900_05: #1b181e;    
+              --gray_900_4c: #25201f4c;    
+              --gray_900_72: #16161672;    
+              --red_800: #d50630;    
+              --red_900: #c5001c;    
+              --white_a700: #ffffff;   
+               --white_a700_19:
+                #ffffff19;   
+                 /*------Shadow variables------*/   
+                  --shadow-xs: 0 1px 3px 0 #25201f4c; 
+                     /*------Border radius variables------*/   
+                      --radius-xs: 4px;
+                          --radius-sm: 8px;  
+                        --radius-md: 10px;    
+           --radius-lg: 12px;    
+           /*------Spacing variables------*/   
+            --space-xs: 2px;    
+            --space-sm: 4px;   
+             --space-md: 8px;  
+               --space-lg: 14px;  
+                 --space-xl: 16px;
+                 --space-2xl: 18px;  }
+                }
+                @layer components 
+                {  /*-------------------------------------  Container CSS--------------------------------------*/ 
+                     .container-xs {  
+                          @apply w-full mx-auto max-w-[1132px]; 
+                         }}
